@@ -1,0 +1,30 @@
+{
+  "name": "miapi",
+  "version": "1.0.0",
+  "description": "Esta es mi primera Api Rest",
+  "homepage": "https://github.com/hanchosky/apiRest#readme",
+  "bugs": {
+    "url": "https://github.com/hanchosky/apiRest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanchosky/apiRest.git"
+  },
+  "license": "ISC",
+  "author": "Hanschosky",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^1.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
