@@ -27,7 +27,7 @@ connection.on('error', (err) => {
 });
 
 connection.once('open', () => {
-    console.log('Conexión a la base de datos establecida en MongoDB');
+    console.log('¡¡¡ CRACK estas Conectado a la base de datos en MongoDB !!!');
 });
 
 // Configuración del servidor
