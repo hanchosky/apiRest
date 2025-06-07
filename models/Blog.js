@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
-const PostSchema = mongoose.Schema({
-
+const BlogSchema = mongoose.Schema({
     title: {
         type: String,
         required: true
@@ -14,4 +13,4 @@ const PostSchema = mongoose.Schema({
         default: Date.now
     },
 });
-module.exports = mongoose.model('Post', PostSchema); // Exportar el modelo Post para que pueda ser utilizado en otros archivos
+module.exports = mongoose.model('Blog', BlogSchema); // Exportar el modelo Blog para que pueda ser utilizado en otros archivos

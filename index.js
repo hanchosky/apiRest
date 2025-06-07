@@ -7,8 +7,8 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 
-const postRoute = require('./routes/post');
-app.use('/servicios', postRoute);
+const blogRoute = require('./routes/blog');
+app.use('/servicios', blogRoute);
 
 // Configuración de opciones de conexión
 const options = {
